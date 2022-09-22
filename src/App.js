@@ -1,15 +1,15 @@
 import "./App.css";
-import Work from "./layout/Work/Work";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
     <div className="App">
-      <Work></Work>
+      <h2> renderizo esto</h2>
+
+      <ItemListContainer name="Fran" />
+      {/* <ItemListContainer/> */}
     </div>
   );
 }
-
-//pusheamos cambios?
-//Documentamos acá?
 
 export default App;
